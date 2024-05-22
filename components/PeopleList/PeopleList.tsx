@@ -1,5 +1,5 @@
 import { FlatList, View, StyleSheet, Text, Image } from "react-native";
-import { ApiResponse, Character } from "../../types/peopleType"
+import { ApiResponse } from "../../types/peopleType"
 import { PersonItem } from "../PersonItem/PersonItem";
 
 type Props = {

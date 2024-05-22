@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Button, StatusBar, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import * as peopleActions from '../features/peopleSlicer';
 import * as favouriteActions from '../features/favouriteSlicer';

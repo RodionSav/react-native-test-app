@@ -1,5 +1,5 @@
-import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit"
-import { ApiPlanetResponse, ApiResponse, Character, Planet, SpeciesResponse } from "../../types/peopleType"
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
+import { ApiPlanetResponse, ApiResponse, SpeciesResponse } from "../../types/peopleType"
 import { getPeople, getPlanets, getSpecies } from "../../api/people"
 
 type PeopleState = {

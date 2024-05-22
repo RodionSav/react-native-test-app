@@ -1,9 +1,8 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
-import { View, StyleSheet, Text, TouchableOpacity, Image } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, Image } from "react-native";
 import { Character } from "../../types/peopleType";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { useNavigation } from "@react-navigation/native";
-import * as peopleActions from '../features/peopleSlicer';
 import * as favouriteActions from '../features/favouriteSlicer';
 
 type Props = {
